@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
           project: kwg08055/cicd
-          stage: main
+          stage: master
           yaml: |
             name: cicd
             app: java@17
